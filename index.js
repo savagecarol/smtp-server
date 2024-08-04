@@ -10,6 +10,10 @@ app.get('/', (req, res) => {
     res.send('working');
   });
 
+app.get('/abc', (req, res) => {
+    res.send({'data' : 'json'});
+  });
+
 const server = new SMTPServer({
     allowInsecureAuth:true,
     authOptional:true,
