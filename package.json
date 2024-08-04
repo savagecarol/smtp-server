@@ -3,5 +3,18 @@
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "smtp-server": "^3.13.4"
-  }
+  },
+  "name": "smtp-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "vercel-build": "npx vercel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
